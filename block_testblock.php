@@ -27,12 +27,19 @@ class block_testblock extends block_base {
     }
 
     function get_content() {
-        if ($this->content !== NULL) {
+        global $DB;
+        if ($this->content !== null) {
             return $this->content;
         }
 
+        $userstring = "";
+        $users = $DB->get_records('user');
+        foreach ($users as $user) {
+            $userstring .= $user->firstname . " " . $user->lastname . "<br>";
+        }
+
         $this->content = new stdClass;
-        $this->content->text = "this is the text";
+        $this->content->text = $userstring;
         $this->content->footer = "this is the footer";
 
         return $this->content;
