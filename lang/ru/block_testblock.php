@@ -21,9 +21,9 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['testblock:addinstance'] = 'Add a new test block';
-$string['testblock:myaddinstance'] = 'Add a new test block to Dashboard';
-$string['testblock'] = 'test block';
-$string['pluginname'] = 'Test Block';
-$string['showcourses'] = 'Show courses';
-$string['showcoursesdesc'] = 'Show courses instead of users';
+$string['testblock:addinstance'] = 'Добавить новый тест-блок';
+$string['testblock:myaddinstance'] = 'Добавить новый тест-блок в дашборд';
+$string['testblock'] = 'тест блок';
+$string['pluginname'] = 'Тест Блок';
+$string['showcourses'] = 'Показать курсы';
+$string['showcoursesdesc'] = 'Показать курсы вместо пользователей';
