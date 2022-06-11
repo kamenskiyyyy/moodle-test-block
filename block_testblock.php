@@ -20,6 +20,7 @@
  * @package   block_testblock
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 class block_testblock extends block_base {
 
     function init() {
